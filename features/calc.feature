@@ -3,7 +3,7 @@ Feature: calculator
     You should put a description of the feature under test here
     In this test we'll check our Calculator can add two numbers
 
-    Scenario: Multiply two numbers
+    Scenario: Test calculator operations
         Given I have entered <number1> into the calculator
         And I have entered <number2> into the calculator
         When I press "<operation>"
